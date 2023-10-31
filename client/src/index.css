@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Varela Round', sans-serif;
+}
+body{
+    background-color: rgb(241, 245, 241);
+    font-family: 'Varela Round', sans-serif;
+}
+
+.header {
+    /* background-color: #7C6A46; */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9),
+            rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1508333409359-027beab53750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 10px 6rem;
+}
